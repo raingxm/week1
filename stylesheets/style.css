@@ -77,6 +77,7 @@ body {
 .userLink {
   text-decoration: none;
   color:white;
+  font-size: medium;
 }
 
 #logOut {
@@ -85,3 +86,30 @@ body {
   color: white;
   outline: none;
 }
+
+#search {
+  color: white;
+  margin: 100px;
+  padding-left: 500px;
+  font-size: large;
+}
+
+#userInfo {
+  margin-left: 1000px;
+  padding-top: 100px;
+}
+
+#firstLine {
+
+}
+
+#secondLine {
+  font-size: small;
+  margin-left: 45px;
+}
+
+#searchInput {
+  margin-left: 60px;
+}
+
+
