@@ -47,6 +47,7 @@ caption, th, td {
 q, blockquote {
   quotes: none;
 }
+
 /* line 103, ../../../../.rvm/gems/ruby-1.9.3-p545/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
@@ -65,8 +66,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../sass/style.scss */
 body {
-  font-size: 62.5%;
-  background-color: #1A1B1A;
+  font-size: 100%;
+  /*background-color: #1A1B1A;*/
+}
+
+footer {
+  font-size: 100%;
+  margin-left: 10%;
+  hight: 30px;
+  line-height: 60px;
 }
 
 #top {
@@ -106,7 +114,7 @@ body {
   padding: 10px 0;
 }
 
-#search button {
+.searchButton {
   width: 100px;
   height: 40px;
   background-color: #68DDAD;
@@ -117,17 +125,103 @@ body {
 
 .searchInput {
   margin-top: 10px;
-  height: 100%;
+  height: 35px;
   width: 400px;
   opacity: 0.4;
 }
 
 #userInfo {
-  margin-left: 1000px;
+  margin-left: 75%;
   padding-top: 100px;
-  font-size: 16px;
 }
 
 .search-area {
   height: 35px;
 }
+
+#introduction a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 0 -2px;
+}
+
+#today {
+  background-color: #525D76;
+  color: white;
+}
+
+#introduction {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#introduction p {
+  margin: 50px 35%;
+  width: 30%;
+}
+
+#personInfo p {
+  text-align: center;
+}
+
+#personInfo p:nth-child(1) {
+}
+
+#personInfo p:nth-child(2) {
+  color: grey;
+}
+
+#first {
+
+  background: url("../img/4551378258334.jpg") no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+#second {
+
+  background: url("../img/18721378258329.jpg") no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+#third {
+
+  background: url("../img/67561378258332.jpg") no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+#img {
+  text-align: center;
+}
+
+#bottom {
+  background: url("../img/1-140HZ92042-50.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 160px;
+  text-align: center;
+}
+
+#bottomSearch p {
+  display: inline;
+  line-height: 10px;
+}
+
+#secondSearch {
+  display: inline;
+}
+
+#bottomSearch {
+  padding-top: 60px;
+}
+
