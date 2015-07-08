@@ -293,6 +293,10 @@ footer {
   width: 90%;
 }
 
+#reason ul li {
+  margin-bottom: 30px;
+}
+
 #reason ul h3 {
   margin-bottom: 10px;
 }
