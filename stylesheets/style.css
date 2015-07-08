@@ -66,6 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../sass/style.scss */
 body {
+<<<<<<< HEAD
   font-size: 100%;
   /*background-color: #1A1B1A;*/
 }
@@ -75,6 +76,10 @@ footer {
   margin-left: 10%;
   hight: 30px;
   line-height: 60px;
+=======
+  font-size: 62.5%;
+  background-color: #F2F3ED;
+>>>>>>> finish how it work section
 }
 
 #top {
@@ -86,7 +91,7 @@ footer {
 #userInfo a {
   text-decoration: none;
   color: white;
-  padding-right: 30px;
+  padding-right: 5%;
   font-size: 20px;
   border: 0;
 }
@@ -131,7 +136,7 @@ footer {
 }
 
 #userInfo {
-  margin-left: 75%;
+  margin-left: 70%;
   padding-top: 100px;
 }
 
@@ -223,5 +228,50 @@ footer {
 
 #bottomSearch {
   padding-top: 60px;
+}
+
+#workflow, #reason {
+  text-align: center;
+  font-size: 20px;
+}
+
+#workflow h2, #reason h2 {
+  margin-top: 50px;
+}
+
+#workflow ul, #reason ul {
+  margin: 30px 0 50px;
+}
+
+#workflow ul li {
+  display: inline-block;
+  width: 25%;
+  height: 150px;
+  margin-left: 5%;
+}
+
+#workflow img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;;
+}
+
+#workflow ul h3 {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+#workflow ul p {
+  color: #C0C0C1;
+}
+
+#reason {
+  border-top: 1px solid #bbb;
+}
+
+#reason .advantage ul div {
+  display: inline-block;
+  width: 40%;
+  margin-left: 8%;
 }
 
