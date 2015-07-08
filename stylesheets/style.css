@@ -104,11 +104,13 @@ body {
 }
 
 #secondLine {
+  magin-top: 5px;
   font-size: small;
   margin-left: 45px;
 }
 
 #searchInput {
+  margin-top: 10px;
   margin-left: 60px;
 }
 
