@@ -78,6 +78,8 @@ footer {
   background-color: #F2F3ED;
 }
 
+/* top */
+
 #top {
   background: url("../img/sun.jpeg") no-repeat;
   background-size: 100% 100%;
@@ -115,6 +117,10 @@ footer {
   padding: 10px 0;
 }
 
+.searchArea {
+  height: 35px;
+}
+
 .searchButton {
   width: 100px;
   height: 40px;
@@ -129,6 +135,9 @@ footer {
   height: 35px;
   width: 400px;
   opacity: 0.4;
+  border: 0;
+  padding: 3px;
+  font-size: 18px;
 }
 
 #userInfo {
@@ -136,95 +145,7 @@ footer {
   padding-top: 100px;
 }
 
-.search-area {
-  height: 35px;
-}
-
-#introduction a {
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
-  border: 1px solid black;
-  margin: 0 -2px;
-}
-
-#today {
-  background-color: #525D76;
-  color: white;
-}
-
-#introduction {
-  text-align: center;
-  padding-top: 100px;
-}
-
-#introduction p {
-  margin: 50px 35%;
-  width: 30%;
-}
-
-#personInfo p {
-  text-align: center;
-}
-
-#personInfo p:nth-child(1) {
-}
-
-#personInfo p:nth-child(2) {
-  color: grey;
-}
-
-#first {
-
-  background: url("../img/4551378258334.jpg") no-repeat;
-  background-size: 100%;
-  height: 60px;
-  width: 60px;
-  display: inline-block;
-}
-
-#second {
-
-  background: url("../img/18721378258329.jpg") no-repeat;
-  background-size: 100%;
-  height: 60px;
-  width: 60px;
-  display: inline-block;
-  margin: 0px 30px;
-}
-
-#third {
-
-  background: url("../img/67561378258332.jpg") no-repeat;
-  background-size: 100%;
-  height: 60px;
-  width: 60px;
-  display: inline-block;
-}
-
-#carton-logo {
-  text-align: center;
-}
-
-#bottom {
-  background: url("../img/1-140HZ92042-50.jpg") no-repeat;
-  background-size: 100% 100%;
-  height: 160px;
-  text-align: center;
-}
-
-#bottomSearch p {
-  display: inline;
-  line-height: 10px;
-}
-
-#secondSearch {
-  display: inline;
-}
-
-#bottomSearch {
-  padding-top: 60px;
-}
+/* work flow */
 
 #workflow, #reason {
   text-align: center;
@@ -262,6 +183,8 @@ footer {
   color: #C0C0C1;
 }
 
+/* reason */
+
 #reason {
   border-top: 1px solid #bbb;
 }
@@ -297,3 +220,79 @@ footer {
   margin-bottom: 10px;
 }
 
+
+/* introduction part */
+
+#introduction {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#introduction a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 0 -2px;
+}
+
+#today {
+  background-color: #525D76;
+  color: white;
+}
+
+#introduction p {
+  margin: 50px 35%;
+  width: 30%;
+}
+
+#personInfo p {
+  text-align: center;
+}
+
+#personInfo p:nth-child(2) {
+  color: grey;
+}
+
+#first {
+  background: url("../img/left-boy.jpg") no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+#second {
+  background: url("../img/middle-boy.jpg") no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+#third {
+  background: url("../img/right-boy.jpg") no-repeat;
+  background-size: 100%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+}
+
+#carton-logo {
+  text-align: center;
+}
+
+/* bottom part */
+
+#bottom {
+  background: url("../img/bottom-bg.jpg") no-repeat;
+  background-size: 100% 100%;
+  height: 160px;
+  text-align: center;
+}
+
+#bottomSearch p {
+  display: inline;
+  line-height: 10px;
+}
