@@ -66,20 +66,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../sass/style.scss */
 body {
-<<<<<<< HEAD
   font-size: 100%;
-  /*background-color: #1A1B1A;*/
 }
 
 footer {
   font-size: 100%;
   margin-left: 10%;
-  hight: 30px;
+  height: 30px;
   line-height: 60px;
-=======
   font-size: 62.5%;
   background-color: #F2F3ED;
->>>>>>> finish how it work section
 }
 
 #top {
@@ -206,7 +202,7 @@ footer {
   display: inline-block;
 }
 
-#img {
+#carton-logo {
   text-align: center;
 }
 
