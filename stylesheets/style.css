@@ -67,6 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 4, ../sass/style.scss */
 body {
   font-size: 100%;
+  background-color: #F4F3F1;
 }
 
 footer {
@@ -87,16 +88,18 @@ footer {
 #userInfo a {
   text-decoration: none;
   color: white;
-  padding-right: 5%;
+  margin-right: 5%;
   font-size: 20px;
-  border: 0;
 }
 
-#logOut {
+#userInfo {
+  margin-left: 70%;
+  padding-top: 100px;
+}
+
+.signup {
   border: 1px solid white;
-  background-color: transparent;
-  color: white;
-  outline: none;
+  padding: 5px;
 }
 
 #search {
@@ -115,17 +118,15 @@ footer {
   padding: 10px 0;
 }
 
-.searchArea {
-  height: 35px;
-}
-
 .searchButton {
   width: 100px;
-  height: 40px;
+  height: 41px;
   background-color: #68DDAD;
   font-size: 16px;
   border: 0;
   color: #fff;
+  position: relative;
+  top: -1px;
 }
 
 .searchInput {
@@ -138,22 +139,24 @@ footer {
   font-size: 18px;
 }
 
-#userInfo {
-  margin-left: 70%;
-  padding-top: 100px;
-}
-
 .cover {
   position: absolute;
   top: 0;
   width: 100%;
   height: 500px;
-  background-color: #000;
+  background-color: #666;
   opacity: 0.2;
 }
 
 /* work flow */
 
+#workflow hr {
+  width: 40px;
+  height: 3px;
+  background-color: #E6E6E6;
+  border: 0;
+  margin-top: 10px;
+}
 #workflow, #reason {
   text-align: center;
   font-size: 20px;
@@ -164,7 +167,7 @@ footer {
 }
 
 #workflow ul, #reason ul {
-  margin: 30px auto 50px;
+  margin: 80px auto 50px;
 }
 
 #workflow ul li {
@@ -173,6 +176,10 @@ footer {
   height: 150px;
   margin-left: 5%;
   vertical-align: top;
+}
+
+#workflow .group {
+  width: 60px;
 }
 
 #workflow img {
