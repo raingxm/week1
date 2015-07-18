@@ -137,6 +137,8 @@ footer {
   border: 0;
   padding: 3px;
   font-size: 18px;
+  position: relative;
+  z-index: 10;
 }
 
 .cover {
